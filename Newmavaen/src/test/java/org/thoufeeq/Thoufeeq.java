@@ -22,7 +22,7 @@ public class Thoufeeq {
 		@Parameters({"inputFile","outputFile"})
 		@Test
 		
-		private void meth1(String TargetSheetPathAndName,String NewSheetPathAndName ) {
+		public void meth1(String TargetSheetPathAndName,String NewSheetPathAndName ) {
 
 		
 
