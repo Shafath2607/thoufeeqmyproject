@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4486" started-at="2023-02-06T18:20:28Z" finished-at="2023-02-06T18:20:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4486" started-at="2023-02-06T18:20:28Z" finished-at="2023-02-06T18:20:32Z">
+      <class name="org.thoufeeq.Thoufeeq">
+        <test-method status="PASS" signature="meth1(java.lang.String, java.lang.String)[pri:0, instance:org.thoufeeq.Thoufeeq@1b604f19]" name="meth1" duration-ms="4206" started-at="2023-02-06T18:20:28Z" finished-at="2023-02-06T18:20:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\LENOVO\\Desktop\\example1.xlsx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\\Users\\LENOVO\\Desktop\\example11.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth1 -->
+      </class> <!-- org.thoufeeq.Thoufeeq -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
