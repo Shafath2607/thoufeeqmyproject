@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4486" started-at="2023-02-06T18:20:28Z" finished-at="2023-02-06T18:20:32Z">
+  <suite name="Suite" duration-ms="5256" started-at="2023-02-07T09:50:40Z" finished-at="2023-02-07T09:50:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4486" started-at="2023-02-06T18:20:28Z" finished-at="2023-02-06T18:20:32Z">
+    <test name="Test" duration-ms="5256" started-at="2023-02-07T09:50:40Z" finished-at="2023-02-07T09:50:45Z">
       <class name="org.thoufeeq.Thoufeeq">
-        <test-method status="PASS" signature="meth1(java.lang.String, java.lang.String)[pri:0, instance:org.thoufeeq.Thoufeeq@1b604f19]" name="meth1" duration-ms="4206" started-at="2023-02-06T18:20:28Z" finished-at="2023-02-06T18:20:32Z">
+        <test-method status="PASS" signature="meth1(java.lang.String, java.lang.String)[pri:0, instance:org.thoufeeq.Thoufeeq@7823a2f9]" name="meth1" duration-ms="5025" started-at="2023-02-07T09:50:40Z" finished-at="2023-02-07T09:50:45Z">
           <params>
             <param index="0">
               <value>

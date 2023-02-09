@@ -15,6 +15,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+
 public class Thoufeeq {
 
 	
@@ -26,12 +27,7 @@ public class Thoufeeq {
 
 		
 
-		// Step #1 : Locate path and file name of target and output excel.
-
-	//	String TargetSheetPathAndName = "C:\\Users\\LENOVO\\Desktop\\example1.xlsx";
-
-	//	String NewSheetPathAndName = "C:\\Users\\LENOVO\\Desktop\\example11.xlsx";
-
+		
 		if (TargetSheetPathAndName != null && !"".equals(TargetSheetPathAndName.trim())) {
 
 		try {
@@ -116,12 +112,12 @@ public class Thoufeeq {
 
 		if (currentCellIndex == 0)
 
-		outputSheet.createRow(currentRowIndex).createCell(currentCellIndex).setCellValue(cellData+22);
+		outputSheet.createRow(currentRowIndex).createCell(currentCellIndex).setCellValue(cellData);
 
 		else
 
-		outputSheet.getRow(currentRowIndex).createCell(currentCellIndex).setCellValue(cellData+22.00);
-
+		outputSheet.getRow(currentRowIndex).createCell(currentCellIndex).setCellValue(cellData);
+		
 		currentCellIndex++;
 
 		}
@@ -135,9 +131,11 @@ public class Thoufeeq {
 		+ "" + outputSheet.getSheetName() + "");
 
 		}
+	
 		
 
 		}
+		
 		}
 		
 
